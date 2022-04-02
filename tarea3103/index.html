@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title> Tarea 31-03</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <p><a href="#" class=" btn " id="boton">LIMPIAR</a></p>
+        <table>
+            <thead>
+            <tr id="tab_cabe">
+                <th>id</th>
+                <th>CI</th>
+                <th>NOMBRE</th>
+                <th>APELLIDO</th>
+                <th>FECHA DE NACIMIENTO</th>
+            </tr>
+            </thead>
+            <tbody id="tab_datos">
+                <tr >
+                    <td></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <form>
+            <p>Ingrese: </p>
+            <p>Cédula: <input type="number" id="cedula"/></p>
+            <p>Nombre: <input type="text" id="nombre"/></p>
+            <p>Apellido: <input type="text" id="apellido"/></p>
+            <p>Fecha de Nacimiento: <input type="date" id="fechaNac"/></p>
+            <p><button onclick="cargarArray(); ">Guardar</button><button onclick="limpiarTabla(); ">Limpiar</button></p><!--//event.preventDefault();-->
+        </form>
+        <script src="js/app.js"></script>
+    </body>
+</html>
