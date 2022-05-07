@@ -1,4 +1,7 @@
-<?php session_start();?>
+
+<?php 
+//alumno: Rodrigo Bogado Colmán.!
+session_start();?>
 <?php
         //si se toca el boton con nombre borrar se agrega al array request y se borra los datos de session
         if(isset($_REQUEST['Borrar'])){
